@@ -11,7 +11,6 @@ function Index() {
         <NavBar/>
         <Hero/>
         <Skills/>
-        
         <Footer/>
     </>
   )

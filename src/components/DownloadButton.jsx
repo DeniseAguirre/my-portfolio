@@ -11,7 +11,7 @@ const DownloadButton = () => {
 
   return (
     <button onClick={handleDownload}>
-      Download CV
+      Descargar CV
     </button>
   );
 };

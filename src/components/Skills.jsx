@@ -5,55 +5,58 @@ function Skills() {
   return (
     <>
       <div className="flex flex-col h-screen w-screen">
-        <h2>Tecnologías</h2>
-        <div className="flex">
-          <div className="skill-item">
-            <SiHtml5 />
+        <h1 className="m-10 text-3xl">Tecnologías</h1>
+        <div className="grid grid-cols-4 gap-10 place-items-center">
+          <div className="skill-item text-center">
+            <SiHtml5 title="HTML 5"/>
+            <tool-tip role="tooltip">
+              HTML 5
+            </tool-tip>
           </div>
           <div className="skill-item">
-            <SiCss3 />
+            <SiCss3 title="CSS 3"/>
           </div>
           <div className="skill-item">
-            <SiJavascript/>
+            <SiJavascript title="JavaScript"/>
           </div>
           <div className="skill-item">
-            <SiReact/>
+            <SiReact title="React.js"/>
           </div>
           <div className="skill-item">
-            <SiMongodb/>
+            <SiMongodb title="MongoDB"/>
           </div>
           <div className="skill-item">
-            <SiNodedotjs/>
+            <SiNodedotjs title="Node.js"/>
           </div>
           <div className="skill-item">
-            <SiExpress/>
+            <SiExpress title="Express"/>
           </div>
           <div className="skill-item">
-            <SiTrello/>
+            <SiTrello title="Trello"/>
           </div>
           <div className="skill-item">
-            <SiPostman/>
+            <SiPostman title="Postman"/>
           </div>
           <div className="skill-item">
-            <SiFigma/>
+            <SiFigma title="Figma"/>
           </div>
           <div className="skill-item">
-            <SiRedux/>
+            <SiRedux title="Redux"/>
           </div>
           <div className="skill-item">
-            <SiBootstrap/>
+            <SiBootstrap title="Bootstrap"/>
           </div>
           <div className="skill-item">
-            <SiTailwindcss/>
+            <SiTailwindcss title="Tailwind"/>
           </div>
           <div className="skill-item">
-            <SiAxios/>
+            <SiAxios title="Axios"/>
           </div>
           <div className="skill-item">
-            <SiMongoose/>
+            <SiMongoose title="Mongoose"/>
           </div>
           <div className="skill-item">
-            <SiGithub/>
+            <SiGithub title="GitHub"/>
           </div>
         </div>
       </div>

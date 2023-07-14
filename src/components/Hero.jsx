@@ -4,19 +4,20 @@ import DownloadButton from "./DownloadButton";
 function Hero() {
   return (
     <>
-      <div className="w-fit flex sm:flex-row flex-col h-screen">
-        {/* <div className="">
+      <div className="w-screen flex sm:flex-row flex-col h-screen justify-evenly">
+        <div className="flex justify-center items-center">
           <img
-            className="h-screen"
-            src="./public/images/dencompu.jpeg"
+            className="h-[50%] w-auto rounded-full border-4 border-[#A5AC8C]"
+            src="https://i.postimg.cc/8Ph92TDz/perfil.jpg"
             alt="Denise_Aguirre"
           />
-        </div> */}
-        <div className="justify-center align-start flex flex-col text-start">
-          <h1>Denise Aguirre</h1>
+        </div>
+        <div className="justify-center flex flex-col text-start gap-3">
+          <h1 className="text-5xl">DENISE AGUIRRE</h1>
           <p>Desarrolladora Full Stack MERN</p>
           <DownloadButton />
         </div>
+        
       </div>
     </>
   );
