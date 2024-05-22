@@ -1,47 +1,82 @@
-import React from 'react'
+import projects from "../data/projects.json";
+import VideoCard from "./VideoCard";
 
-function Projects() {
+export default function Projects() {
+  const sortedProjects = projects.sort((a, b) => {
+    return new Date(b.datetime) - new Date(a.datetime);
+  });
+
   return (
-    
-    <div className="flex flex-col justify-center items-center h-[100vh]">
-            <div className="!z-5 relative rounded-[20px] max-w-[300px] bg-white bg-clip-border shadow-3xl shadow-shadow-500 flex flex-col w-full !p-4 3xl:p-![18px]">
-                <div className="h-full w-full">
-                    <div className="relative w-full">
-                        <img src="https://horizon-tailwind-react-git-tailwind-components-horizon-ui.vercel.app/static/media/Nft3.3b3e6a4b3ada7618de6c.png" className="mb-3 h-full w-full rounded-xl 3xl:h-full 3xl:w-full" alt=""/>
-                        <button className="absolute top-3 right-3 flex items-center justify-center rounded-full bg-white p-2 text-brand-500 hover:cursor-pointer">
-                            <div className="flex h-full w-full items-center justify-center rounded-full text-xl hover:bg-gray-50">
-                                <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z"></path></svg>
-                            </div>
-                        </button>
-                    </div>
-                    <div className="mb-3 flex items-center justify-between px-1 md:items-start">
-                        <div className="mb-2">
-                            <p className="text-lg font-bold text-navy-700"> Abstract Colors </p>
-                            <p className="mt-1 text-sm font-medium text-gray-600 md:mt-2">By Esthera Jackson </p>
-                        </div>
-                        <div className="flex flex-row-reverse md:mt-2 lg:mt-0">
-                            <span className="z-0 ml-px inline-flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-[#E0E5F2] text-xs text-navy-700 ">+5</span><span className="z-10 -mr-3 h-8 w-8 rounded-full border-2 border-white">
-                                <img className="h-full w-full rounded-full object-cover" src="https://horizon-tailwind-react-git-tailwind-components-horizon-ui.vercel.app/static/media/avatar1.eeef2af6dfcd3ff23cb8.png" alt=""/>
-                            </span>
-                            <span className="z-10 -mr-3 h-8 w-8 rounded-full border-2 border-white">
-                                <img className="h-full w-full rounded-full object-cover" src="https://horizon-tailwind-react-git-tailwind-components-horizon-ui.vercel.app/static/media/avatar2.5692c39db4f8c0ea999e.png" alt=""/>
-                            </span>
-                            <span className="z-10 -mr-3 h-8 w-8 rounded-full border-2 border-white">
-                                <img className="h-full w-full rounded-full object-cover" src="https://horizon-tailwind-react-git-tailwind-components-horizon-ui.vercel.app/static/media/avatar3.9f646ac5920fa40adf00.png" alt=""/>
-                            </span>
-                        </div>
-                    </div>
-                    <div className="flex items-center justify-between md:items-center lg:justify-between ">
-                        <div className="flex">
-                            <p className="!mb-0 text-sm font-bold text-brand-500">Current Bid: 0.91 <span>ETH</span></p>
-                        </div>
-                        <button href="" className="linear rounded-[20px] bg-brand-900 px-4 py-2 text-base font-medium text-white transition duration-200 hover:bg-brand-800 active:bg-brand-700">Place Bid</button>
-                    </div>
-                </div>
-            </div>
-  </div>
-  
-  )
-}
+    <div id="projects" className="py-8 sm:py-16">
+      <div className="mx-auto max-w-2xl ">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center mb-8">
+          Projects
+        </h2>
+      </div>
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <VideoCard />
+        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+          {sortedProjects.map((project) => (
+            <article
+              key={project.id}
+              className="flex max-w-xl flex-col items-start justify-between border border-gray-200 p-8 rounded-lg shadow-lg"
+            >
+              <div className="flex items-center gap-x-4 text-xs">
+                <time dateTime={project.datetime} className="text-gray-500">
+                  {project.date}
+                </time>
 
-export default Projects
+                <a
+                  href={project.category.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                >
+                  {project.category.title}
+                </a>
+              </div>
+
+              <div className="group relative">
+                <img
+                  className="object-contain w-full my-4 h-48 rounded-lg bg-gray-50"
+                  src={project.image}
+                  alt=""
+                />
+                <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                  <a href={project.href} target="_blank" rel="noreferrer">
+                    <span className="absolute inset-0" />
+                    {project.title}
+                  </a>
+                </h3>
+
+                <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
+                  {project.description}
+                </p>
+              </div>
+              <div className="relative mt-8 flex items-center gap-x-4">
+                <img
+                  src={project.author.imageUrl}
+                  alt=""
+                  className="h-10 w-10 rounded-full bg-gray-50"
+                />
+                <div className="text-sm leading-6">
+                  <p className="font-semibold text-gray-900">
+                    <a
+                      href={project.author.href}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span className="absolute inset-0" />
+                      {project.author.name}
+                    </a>
+                  </p>
+                  <p className="text-gray-600">{project.author.role}</p>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
