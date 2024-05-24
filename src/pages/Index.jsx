@@ -1,8 +1,8 @@
 import Skills from "../components/Skills";
-import NavBar from "../components/NavBar";
 import AboutMe from "../components/AboutMe";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 
 export default function Index() {
@@ -11,7 +11,9 @@ export default function Index() {
       top: 0,
       behavior: "smooth",
     });
+    window.location.href = "http://localhost:5173/#";
   };
+
   return (
     <>
       <NavBar />
@@ -19,7 +21,6 @@ export default function Index() {
       <Skills />
       <Projects />
       <Contact />
-
       <Footer />
 
       <button

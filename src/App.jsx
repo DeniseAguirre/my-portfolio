@@ -1,15 +1,13 @@
-import Index from "./pages/Index";
+import { Router, Routes } from "react-router-dom";
+import routes from "./router/router";
 
 function App() {
   return (
-    // <Router>
-    //   <ScrollToTop/>
-    //   <div>
-    //     <NavBar />
-    //     <Routes element={routes} />
-    <Index />
-    //   </div>
-    // </Router>
+    <Router>
+      <div>
+        <Routes element={routes} />
+      </div>
+    </Router>
   );
 }
 
