@@ -78,5 +78,21 @@
       "href": "https://www.linkedin.com/in/denise-aguirre-m/",
       "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
     }
+  },
+  {
+    "id": 6,
+    "title": "Personal Brand",
+    "href": "https://dennyaguirre01.wixsite.com/deniseaguirre",
+    "image": "https://i.postimg.cc/JhTWnG7M/branddesign.png",
+    "description": "Design Workshop course for the National University of José C. Paz",
+    "date": "Jul 01, 2020",
+    "datetime": "2020-07-01",
+    "category": { "title": "Web Design", "href": "#" },
+    "author": {
+      "name": "Denise Aguirre",
+      "role": "Web Designer",
+      "href": "https://www.linkedin.com/in/denise-aguirre-m/",
+      "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+    }
   }
 ]

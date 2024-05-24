@@ -4,7 +4,7 @@ export default function VideoCard() {
   const videoUrl =
     "https://www.youtube.com/embed/xN-VD-i80DA?si=1DyjDOOZmFKIEnLQ";
   return (
-    <div className="m-4 grid grid-cols-2">
+    <div className="m-4 grid lg:grid-cols-2">
       <Card>
         <CardMedia
           component="iframe"
@@ -15,7 +15,7 @@ export default function VideoCard() {
       </Card>
 
       <div className="mx-8 max-w-2xl">
-        <div className="flex items-center gap-x-4 text-xs mb-4">
+        <div className="flex items-center gap-x-4 text-xs my-8">
           <time dateTime="2023-06-16" className="text-gray-500">
             Jun 16, 2023
           </time>

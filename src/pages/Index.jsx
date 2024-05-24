@@ -4,6 +4,7 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import CertificationsGrid from "../components/CertificationsGrid";
 
 export default function Index() {
   const scrollToTop = () => {
@@ -19,6 +20,7 @@ export default function Index() {
       <NavBar />
       <AboutMe />
       <Skills />
+      <CertificationsGrid />
       <Projects />
       <Contact />
       <Footer />

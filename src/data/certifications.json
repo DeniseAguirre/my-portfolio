@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "title": "Testing QA Manual",
+    "href": "https://www.coderhouse.com/ar/certificados/63176c602a3b4d00d03c9be5",
+    "image": "https://i.postimg.cc/W3YfXdb5/coderhouselogo.png",
+    "description": "Coder House",
+    "skills": ["Postman", "Report", "Testing"]
+  },
+  {
+    "id": 2,
+    "title": "HTML Fundamentals Course",
+    "href": "https://www.sololearn.com/Certificate/CT-TPNM92XO/pdf",
+    "image": "https://i.postimg.cc/Nf3DQ5Gr/sololearnlogo.png",
+    "description": "Solo Learn",
+    "skills": ["HTML"]
+  },
+  {
+    "id": 3,
+    "title": "Digital Marketing",
+    "href": "https://drive.google.com/file/d/0B9demP0S0Y6ZaDl5TlVUSmM5bk0/view?usp=sharing&resourcekey=0-RVo_eHq0bZJ47gtnC1cF_w",
+    "image": "https://i.postimg.cc/gcC4WNKK/googlelogo.png",
+    "description": "Google",
+    "skills": ["Facebook Ads", "Google Ads"]
+  },
+  {
+    "id": 4,
+    "title": "Web design and digital communication",
+    "href": "https://drive.google.com/file/d/1TNIWGfCCVYJgfovxjt_A2AwCLcRkJ5h-/view",
+    "image": "https://i.postimg.cc/6Q1RWpCv/unpaz-logo.jpg",
+    "description": "Universidad Nacional de José C. Paz",
+    "skills": ["Figma", "Adobe Illustrator", "Adobe Photoshop", "wix"]
+  },
+  {
+    "id": 5,
+    "title": "Be programmed",
+    "href": "https://mumuki.io/argentina-programa/certificates/verify/B3nWUlJFo6AOlTrn",
+    "image": "https://i.postimg.cc/4nC1QbPZ/mumuki-logo.png",
+    "description": "Argentina Programa",
+    "skills": ["Javascript", "Ruby", "Programming Fundamentals"]
+  },
+  {
+    "id": 5,
+    "title": "Resposive Web Design",
+    "href": "https://www.freecodecamp.org/certification/fcc41d2aa32-aa4f-4ab1-8598-993b38d0c88a/responsive-web-design",
+    "image": "https://i.postimg.cc/wBvyGR7m/freecodecamp-logo.png",
+    "description": "freeCodeCamp",
+    "skills": ["Web Design", "HTML", "CSS", "Bootstrap"]
+  },
+  {
+    "id": 6,
+    "title": "Introduction to software testing QA",
+    "href": "https://api.educacionit.com/pdf/certificados/Denise-Claribel-Aguirre-Martinez-825027/60762",
+    "image": "https://i.postimg.cc/dVTHb3pL/edIT.jpg",
+    "description": "Educación IT",
+    "skills": ["Postman", "Report", "Testing"]
+  },
+  {
+    "id": 7,
+    "title": "First steps of frontend development",
+    "href": "https://drive.google.com/file/d/1TFsKkluhsz1rw9lCLM12RRDPhXvUfOph/view?usp=sharing",
+    "image": "https://i.postimg.cc/bJDwbKvG/APLOGO.png",
+    "description": "Argentina Programa 4.0",
+    "skills": ["CSS3", "HTML5", "Javascript", "Bootstrap"]
+  },
+  {
+    "id": 8,
+    "title": "Initial Programming with Python",
+    "href": "https://drive.google.com/file/d/18l7KQjtiz0aOsRJIenZVf42bPNQg7Wsc/view",
+    "image": "https://i.postimg.cc/8PpvqzXN/124fe5d6bc38ce675e9be8d2c05fbc11.jpg",
+    "description": "Gobierno de la Ciudad de Buenos Aires",
+    "skills": ["Soft skills", "Programming Fundamentals", "Python"]
+  },
+  {
+    "id": 9,
+    "title": "Cybersecurity Training",
+    "href": "https://apolo-cert.deltaprotect.com/certificate/ed55e48c-7a18-5c1a-bf02-3186d42baeea",
+    "image": "https://i.postimg.cc/WbHqyLD4/deltalogo.jpg",
+    "description": "Delta Protect",
+    "skills": [
+      "Types of cyber attacks",
+      "Detection and prevention of cyber attacks"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Bootcamp Full Stack Web Developer MERN & Mobile Apps",
+    "href": "https://www.credly.com/badges/63a93c65-32bb-497f-84ef-72e2365cc131/linked_in_profile",
+    "image": "https://i.postimg.cc/yxZLtXVQ/mindhublogo.jpg",
+    "description": "MindHub",
+    "skills": [
+      "Agile",
+      "Bootstrap",
+      "CSS",
+      "HTML",
+      "Javascript",
+      "MongoDB",
+      "NodeJS",
+      "ReactJS",
+      "SQL",
+      "React Native Mobile Apps Development",
+      "Selenium"
+    ]
+  }
+]
