@@ -42,7 +42,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="lg:w-1/4">
-          <ul className="flex items-center gap-y-2 gap-x-8">
+          <ul className="flex items-center gap-y-2 gap-x-8 flex-col lg:items-end">
             {navigation.map((item) => (
               <li key={item.name + item.href}>
                 <a

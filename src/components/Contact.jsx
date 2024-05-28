@@ -4,17 +4,17 @@ export default function Contact() {
     "https://calendly.com/deniseaguirre-m/15-minute-meet-call";
 
   return (
-    <div id="contact" className="bg-gray-50 py-8 sm:py-16 flex lg:px-24">
+    <div id="contact" className="bg-gray-800 py-8 sm:py-16 flex lg:px-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h1 className="text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl m-4 text-center">
+        <h1 className="text-4xl font-bold tracking-tight text-white lg:text-5xl m-4 text-center">
           Contact
         </h1>
         <div className="flex flex-col m-4">
-          <p className="text-lg leading-8 text-gray-600 mb-4">
+          <p className="text-lg leading-8 text-white mb-4">
             I am always looking for new opportunities. If you want to know more,
             you can contact me.
           </p>
-          <div className="flex flex-col text-lg leading-8 text-gray-600">
+          <div className="flex flex-col text-lg leading-8 text-white">
             <div className="items-center mb-2">
               <a href={calendlyURL} className="flex font-bold">
                 <svg

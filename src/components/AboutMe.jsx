@@ -21,7 +21,7 @@ export default function AboutMe() {
             />
           </a>
         </div>
-        <div className="w-1/2 text-start text-md leading-8 text-gray-600">
+        <div className="md:w-1/2 text-start text-md leading-8 text-gray-600">
           <p className="mb-4">
             Software developer with experience in web and mobile application
             development.{" "}

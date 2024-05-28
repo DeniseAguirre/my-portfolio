@@ -26,10 +26,10 @@ export default function NavBar() {
           <div className="flex lg:flex-1">
             <a
               href="#home"
-              className="-m-1.5 p-1.5 border-2 border-gray-900 hover:text-indigo-600"
+              className="-m-1.5 p-1.5 border-2 border-gray-900 hover:text-indigo-600 "
             >
               <span className="sr-only">Denise Aguirre</span>
-              <h1 className="p-2 font-bold text-2xl">Den_ </h1>
+              <h1 className="p-2 font-bold text-2xl ">Den_ </h1>
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -114,7 +114,7 @@ export default function NavBar() {
               Denise Aguirre
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Software Developer | Technician E-Commerce
+              Software Developer
             </p>
             <div className="mt-2 flex items-center text-sm text-gray-500 justify-center">
               <MapPinIcon

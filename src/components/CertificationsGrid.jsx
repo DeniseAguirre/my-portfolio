@@ -5,7 +5,7 @@ import certifications from "../data/certifications.json";
 
 export default function CertificationsGrid() {
   return (
-    <div id="certifications" className="px-24 py-8 sm:py-16">
+    <div id="certifications" className=" px-8 md:px-24 py-8 sm:py-16">
       <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center m-4">
         Certifications
       </h1>
