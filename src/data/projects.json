@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Olea - The Olive Oil Company",
+    "href": "https://express.adobe.com/page/9d1CpRZ0QmUAX/",
+    "image": "https://i.postimg.cc/nhxc7Pyz/olea.png",
+    "description": "Presentation of the prototype and concept of Olea Organic Olive Oil.",
+    "date": "Jul 01, 2020",
+    "datetime": "2020-07-01",
+    "category": { "title": "Ecommerce", "href": "#" },
+    "author": {
+      "name": "Denise Aguirre",
+      "role": "Technical Ecommerce",
+      "href": "https://www.linkedin.com/in/denise-aguirre-m/",
+      "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Luis Pasteur",
+    "href": "https://drive.google.com/file/d/1rvlFbNBgAw91sXvsonVdZ7XmO8DTXRbm/view?usp=sharing",
+    "image": "https://i.postimg.cc/C1Qw1jnH/luis-pasteur.png",
+    "description": "Results report on test cases for Coder House",
+    "date": "Apr 12, 2022",
+    "datetime": "2022-04-12",
+    "category": { "title": "Testing QA Manual", "href": "#" },
+    "author": {
+      "name": "Denise Aguirre",
+      "role": "Tester QA Manual",
+      "href": "https://www.linkedin.com/in/denise-aguirre-m/",
+      "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Wireframe app 147 JCP",
+    "href": "https://drive.google.com/file/d/1LJYKqeGp8qRVqm9wG4_x_0AADnlCqT_x/view?usp=sharing",
+    "image": "https://i.postimg.cc/x8bvc38K/147-jose-c-paz.png",
+    "description": "APP prototype to report and manage municipal incidents in the town of José C. Paz.",
+    "date": "Jun 21, 2019",
+    "datetime": "2019-06-21",
+    "category": { "title": "Design UX/UI", "href": "#" },
+    "author": {
+      "name": "Denise Aguirre",
+      "role": "Designer UX/UI",
+      "href": "https://www.linkedin.com/in/denise-aguirre-m/",
+      "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Le Culit",
+    "href": "https://drive.google.com/file/d/1E122XYPeRe7KKPACRNxx5y4RJbr0vZsQ/view?usp=sharing",
+    "image": "https://i.postimg.cc/d1qvQJQF/le-culit.png",
+    "description": "Analysis and Digital Marketing Strategy for the children's clothing brand Le Culit",
+    "date": "Nov 26, 2020",
+    "datetime": "2020-11-26",
+    "category": { "title": "Marketing Digital", "href": "#" },
+    "author": {
+      "name": "Denise Aguirre",
+      "role": "Technical Ecommerce Analyst",
+      "href": "https://www.linkedin.com/in/denise-aguirre-m/",
+      "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+    }
+  },
+  {
+    "id": 5,
+    "title": "UNPAZ Portal",
+    "href": "https://drive.google.com/file/d/1WgiE5tXCwwU7VGw7DeM3W40_OwGmyVub/view?usp=sharing",
+    "image": "https://i.postimg.cc/43cMDqzg/portal-campus-unpaz.png",
+    "description": "Analysis of web accessibility for the National University of José C. Paz",
+    "date": "Sep 29, 2022",
+    "datetime": "2022-09-29",
+    "category": { "title": "Accessibility", "href": "#" },
+    "author": {
+      "name": "Denise Aguirre",
+      "role": "Technical Ecommerce",
+      "href": "https://www.linkedin.com/in/denise-aguirre-m/",
+      "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Personal Brand",
+    "href": "https://dennyaguirre01.wixsite.com/deniseaguirre",
+    "image": "https://i.postimg.cc/JhTWnG7M/branddesign.png",
+    "description": "Design Workshop course for the National University of José C. Paz",
+    "date": "Jul 01, 2020",
+    "datetime": "2020-07-01",
+    "category": { "title": "Web Design", "href": "#" },
+    "author": {
+      "name": "Denise Aguirre",
+      "role": "Web Designer",
+      "href": "https://www.linkedin.com/in/denise-aguirre-m/",
+      "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+    }
+  }
+]
