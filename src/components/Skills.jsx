@@ -24,8 +24,10 @@ import {
   SiTrello,
   SiTypescript,
 } from "react-icons/si";
+import { useTranslation } from "react-i18next";
 
 export default function Skills() {
+  const { t } = useTranslation();
   return (
     <div
       id="skills"
@@ -33,14 +35,16 @@ export default function Skills() {
     >
       <div className="mx-auto max-w-2xl">
         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl text-center mb-8">
-          Skills
+          {t("skills.title")}
         </h2>
       </div>
       <div className="flex flex-col lg:grid lg:grid-cols-2 lg:gap-4 text-white ">
         <div className="relative p-8 m-4 lg:m-0">
           <div className="absolute inset-0 h-full w-full bg-black rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10"></div>
           <div className="relative z-10">
-            <h2 className="text-2xl font-bold mb-8 text-center">Full Stack</h2>
+            <h2 className="text-2xl font-bold mb-8 text-center">
+              {t("skills.card1.title")}
+            </h2>
             <div>
               <ul className="grid grid-cols-3 gap-8 lg:grid-cols-4">
                 <li className="flex flex-col items-center text-xs text-center">
@@ -100,7 +104,9 @@ export default function Skills() {
           <div className="relative p-8 m-4 lg:m-0">
             <div className="absolute inset-0 h-full w-full bg-black rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10"></div>
             <div className="relative z-10">
-              <h2 className="text-2xl font-bold mb-8 text-center">Test</h2>
+              <h2 className="text-2xl font-bold mb-8 text-center">
+                {t("skills.card2.title")}
+              </h2>
               <div>
                 <ul className="grid grid-cols-3 gap-4 lg:grid-cols-4">
                   <li className="flex flex-col items-center text-xs text-center">
@@ -120,7 +126,9 @@ export default function Skills() {
             <div className="absolute inset-0 h-full w-full bg-black rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10"></div>
 
             <div className="relative z-10">
-              <h2 className="text-2xl font-bold mb-8 text-center">Tools</h2>
+              <h2 className="text-2xl font-bold mb-8 text-center">
+                {t("skills.card3.title")}
+              </h2>
               <div>
                 <ul className="grid grid-cols-3 gap-4 lg:grid-cols-4">
                   <li className="flex flex-col items-center text-xs text-center">

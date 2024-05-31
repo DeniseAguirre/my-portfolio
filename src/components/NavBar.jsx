@@ -1,18 +1,24 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import PdfFile from "../assets/DeniseAguirreMartinez.pdf";
+import PdfFileEs from "../assets/CV-ES-DeniseAguirre.pdf";
+import PdfFileEn from "../assets/CV-EN-DeniseAguirre.pdf";
 import { MapPinIcon } from "@heroicons/react/24/solid";
 import { FileDownload } from "@mui/icons-material";
-import { navigation } from "./Navigation";
+import LanguageSelector from "../LanguageSelector";
+import { useTranslation } from "react-i18next";
 
 export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { t, i18n } = useTranslation();
+  const navBarItems = t("navBar", { returnObjects: true });
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = PdfFile;
-    link.download = "DeniseAguirreMartinez.pdf";
+    const currentLanguage = i18n.language;
+    const pdfFile = currentLanguage === "en" ? PdfFileEn : PdfFileEs;
+    link.href = pdfFile;
+    link.download = `DeniseAguirreMartinez_${currentLanguage}.pdf`;
     link.click();
   };
 
@@ -43,7 +49,7 @@ export default function NavBar() {
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
-            {navigation.map((item) => (
+            {navBarItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
@@ -53,7 +59,11 @@ export default function NavBar() {
               </a>
             ))}
           </div>
+          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+            <LanguageSelector />
+          </div>
         </nav>
+
         <Dialog
           as="div"
           className="lg:hidden"
@@ -79,7 +89,7 @@ export default function NavBar() {
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
-                  {navigation.map((item) => (
+                  {navBarItems.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
@@ -88,6 +98,9 @@ export default function NavBar() {
                       {item.name}
                     </a>
                   ))}
+                </div>
+                <div>
+                  <LanguageSelector />
                 </div>
               </div>
             </div>
@@ -114,7 +127,7 @@ export default function NavBar() {
               Denise Aguirre
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Software Developer
+              {t("home.description")}
             </p>
             <div className="mt-2 flex items-center text-sm text-gray-500 justify-center">
               <MapPinIcon
@@ -130,14 +143,14 @@ export default function NavBar() {
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 <FileDownload />
-                Download CV
+                {t("home.download")}
               </button>
               <a
                 href="#about"
                 rel="noreferrer"
                 className="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600"
               >
-                Learn more <span aria-hidden="true">→</span>
+                {t("home.learn")} <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>

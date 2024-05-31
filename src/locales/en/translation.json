@@ -1,0 +1,285 @@
+{
+  "home": {
+    "title": "Denise Aguirre",
+    "description": "Software developer",
+    "download": "Download CV",
+    "learn": "Learn more"
+  },
+  "navBar": [
+    { "name": "About Me", "href": "#about" },
+    { "name": "Skills", "href": "#skills" },
+    { "name": "Certifications", "href": "#certifications" },
+    { "name": "Projects", "href": "#projects" },
+    { "name": "Contact", "href": "#contact" }
+  ],
+  "aboutMe": {
+    "title": "About Me",
+    "education": "I completed a University Technician in Electronic Commerce at the National University of José Clemente Paz (UNPAZ) and a MERN Full Stack Web Development Bootcamp at MindHub LA.",
+    "experience": "I have worked in various technical roles, including as Technical Assistant at the Virtual Campus of the National University of José Clemente Paz (UNPAZ) and Software Developer at Bigger. During my time at MindHub, I worked on projects including an e-commerce mobile app and a web app for uploading and reading manga.",
+    "skills": "I possess a variety of technical skills including Stack MERN, Node.js, Bootstrap, Agile, CSS3, React.js, JavaScript, and React Native. I also have experience in marketing, having worked as a Marketing Assistant at Gardenlife SA.",
+    "certifications": "I am certified in Cybersecurity by Delta Protect and have several other certifications in software development and digital marketing. I am always looking for opportunities to learn and grow in my field."
+  },
+  "skills": {
+    "title": "Skills",
+    "card1": {
+      "title": "Full Stack"
+    },
+    "card2": {
+      "title": "Test"
+    },
+    "card3": {
+      "title": "Tools"
+    }
+  },
+  "certifications": {
+    "title": "Certifications",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Testing QA Manual",
+        "button": "Show credential",
+        "href": "https://www.coderhouse.com/ar/certificados/63176c602a3b4d00d03c9be5",
+        "image": "https://i.postimg.cc/W3YfXdb5/coderhouselogo.png",
+        "description": "Coder House",
+        "skills": ["Postman", "Report", "Testing"]
+      },
+      {
+        "id": 2,
+        "title": "HTML Fundamentals Course",
+        "button": "Show credential",
+        "href": "https://www.sololearn.com/Certificate/CT-TPNM92XO/pdf",
+        "image": "https://i.postimg.cc/Nf3DQ5Gr/sololearnlogo.png",
+        "description": "Solo Learn",
+        "skills": ["HTML"]
+      },
+      {
+        "id": 3,
+        "title": "Digital Marketing",
+        "button": "Show credential",
+        "href": "https://drive.google.com/file/d/0B9demP0S0Y6ZaDl5TlVUSmM5bk0/view?usp=sharing&resourcekey=0-RVo_eHq0bZJ47gtnC1cF_w",
+        "image": "https://i.postimg.cc/gcC4WNKK/googlelogo.png",
+        "description": "Google",
+        "skills": ["Facebook Ads", "Google Ads"]
+      },
+      {
+        "id": 4,
+        "title": "Web design and digital communication",
+        "button": "Show credential",
+        "href": "https://drive.google.com/file/d/1TNIWGfCCVYJgfovxjt_A2AwCLcRkJ5h-/view",
+        "image": "https://i.postimg.cc/6Q1RWpCv/unpaz-logo.jpg",
+        "description": "Universidad Nacional de José C. Paz",
+        "skills": ["Figma", "Adobe Illustrator", "Adobe Photoshop", "wix"]
+      },
+      {
+        "id": 5,
+        "title": "Be programmed",
+        "button": "Show credential",
+        "href": "https://mumuki.io/argentina-programa/certificates/verify/B3nWUlJFo6AOlTrn",
+        "image": "https://i.postimg.cc/4nC1QbPZ/mumuki-logo.png",
+        "description": "Argentina Programa",
+        "skills": ["Javascript", "Ruby", "Programming Fundamentals"]
+      },
+      {
+        "id": 5,
+        "title": "Resposive Web Design",
+        "button": "Show credential",
+        "href": "https://www.freecodecamp.org/certification/fcc41d2aa32-aa4f-4ab1-8598-993b38d0c88a/responsive-web-design",
+        "image": "https://i.postimg.cc/wBvyGR7m/freecodecamp-logo.png",
+        "description": "freeCodeCamp",
+        "skills": ["Web Design", "HTML", "CSS", "Bootstrap"]
+      },
+      {
+        "id": 6,
+        "title": "Introduction to software testing QA",
+        "button": "Show credential",
+        "href": "https://api.educacionit.com/pdf/certificados/Denise-Claribel-Aguirre-Martinez-825027/60762",
+        "image": "https://i.postimg.cc/dVTHb3pL/edIT.jpg",
+        "description": "Educación IT",
+        "skills": ["Postman", "Report", "Testing"]
+      },
+      {
+        "id": 7,
+        "title": "First steps of frontend development",
+        "button": "Show credential",
+        "href": "https://drive.google.com/file/d/1TFsKkluhsz1rw9lCLM12RRDPhXvUfOph/view?usp=sharing",
+        "image": "https://i.postimg.cc/bJDwbKvG/APLOGO.png",
+        "description": "Argentina Programa 4.0",
+        "skills": ["CSS3", "HTML5", "Javascript", "Bootstrap"]
+      },
+      {
+        "id": 8,
+        "title": "Initial Programming with Python",
+        "button": "Show credential",
+        "href": "https://drive.google.com/file/d/18l7KQjtiz0aOsRJIenZVf42bPNQg7Wsc/view",
+        "image": "https://i.postimg.cc/8PpvqzXN/124fe5d6bc38ce675e9be8d2c05fbc11.jpg",
+        "description": "Gobierno de la Ciudad de Buenos Aires",
+        "skills": ["Soft skills", "Programming Fundamentals", "Python"]
+      },
+      {
+        "id": 9,
+        "title": "Cybersecurity Training",
+        "button": "Show credential",
+        "href": "https://apolo-cert.deltaprotect.com/certificate/ed55e48c-7a18-5c1a-bf02-3186d42baeea",
+        "image": "https://i.postimg.cc/WbHqyLD4/deltalogo.jpg",
+        "description": "Delta Protect",
+        "skills": [
+          "Types of cyber attacks",
+          "Detection and prevention of cyber attacks"
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Bootcamp Full Stack Web Developer MERN & Mobile Apps",
+        "button": "Show credential",
+        "href": "https://www.credly.com/badges/63a93c65-32bb-497f-84ef-72e2365cc131/linked_in_profile",
+        "image": "https://i.postimg.cc/yxZLtXVQ/mindhublogo.jpg",
+        "description": "MindHub",
+        "skills": [
+          "Agile",
+          "Bootstrap",
+          "CSS",
+          "HTML",
+          "Javascript",
+          "MongoDB",
+          "NodeJS",
+          "ReactJS",
+          "SQL",
+          "React Native Mobile Apps Development",
+          "Selenium"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Olea - The Olive Oil Company",
+        "href": "https://express.adobe.com/page/9d1CpRZ0QmUAX",
+        "image": "https://i.postimg.cc/nhxc7Pyz/olea.png",
+        "description": "Presentation of the prototype and concept of Olea Organic Olive Oil.",
+        "date": "Jul 01, 2020",
+        "datetime": "2020-07-01",
+        "category": { "title": "Ecommerce", "href": "#" },
+        "author": {
+          "name": "Denise Aguirre",
+          "role": "Technical Ecommerce",
+          "href": "https://www.linkedin.com/in/denise-aguirre-m/",
+          "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Luis Pasteur",
+        "href": "https://drive.google.com/file/d/1rvlFbNBgAw91sXvsonVdZ7XmO8DTXRbm/view?usp=sharing",
+        "image": "https://i.postimg.cc/C1Qw1jnH/luis-pasteur.png",
+        "description": "Results report on test cases for Coder House",
+        "date": "Apr 12, 2022",
+        "datetime": "2022-04-12",
+        "category": { "title": "Testing QA Manual", "href": "#" },
+        "author": {
+          "name": "Denise Aguirre",
+          "role": "Tester QA Manual",
+          "href": "https://www.linkedin.com/in/denise-aguirre-m/",
+          "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Wireframe app 147 JCP",
+        "href": "https://drive.google.com/file/d/1LJYKqeGp8qRVqm9wG4_x_0AADnlCqT_x/view?usp=sharing",
+        "image": "https://i.postimg.cc/x8bvc38K/147-jose-c-paz.png",
+        "description": "APP prototype to report and manage municipal incidents in the town of José C. Paz.",
+        "date": "Jun 21, 2019",
+        "datetime": "2019-06-21",
+        "category": { "title": "Design UX/UI", "href": "#" },
+        "author": {
+          "name": "Denise Aguirre",
+          "role": "Designer UX/UI",
+          "href": "https://www.linkedin.com/in/denise-aguirre-m/",
+          "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Le Culit",
+        "href": "https://drive.google.com/file/d/1E122XYPeRe7KKPACRNxx5y4RJbr0vZsQ/view?usp=sharing",
+        "image": "https://i.postimg.cc/d1qvQJQF/le-culit.png",
+        "description": "Analysis and Digital Marketing Strategy for the children's clothing brand Le Culit",
+        "date": "Nov 26, 2020",
+        "datetime": "2020-11-26",
+        "category": { "title": "Marketing Digital", "href": "#" },
+        "author": {
+          "name": "Denise Aguirre",
+          "role": "Technical Ecommerce Analyst",
+          "href": "https://www.linkedin.com/in/denise-aguirre-m/",
+          "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+        }
+      },
+      {
+        "id": 5,
+        "title": "UNPAZ Portal",
+        "href": "https://drive.google.com/file/d/1WgiE5tXCwwU7VGw7DeM3W40_OwGmyVub/view?usp=sharing",
+        "image": "https://i.postimg.cc/43cMDqzg/portal-campus-unpaz.png",
+        "description": "Analysis of web accessibility for the National University of José C. Paz",
+        "date": "Sep 29, 2022",
+        "datetime": "2022-09-29",
+        "category": { "title": "Accessibility", "href": "#" },
+        "author": {
+          "name": "Denise Aguirre",
+          "role": "Technical Ecommerce",
+          "href": "https://www.linkedin.com/in/denise-aguirre-m/",
+          "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+        }
+      },
+      {
+        "id": 6,
+        "title": "Personal Brand",
+        "href": "https://dennyaguirre01.wixsite.com/deniseaguirre",
+        "image": "https://i.postimg.cc/JhTWnG7M/branddesign.png",
+        "description": "Design Workshop course for the National University of José C. Paz",
+        "date": "Jul 01, 2020",
+        "datetime": "2020-07-01",
+        "category": { "title": "Web Design", "href": "#" },
+        "author": {
+          "name": "Denise Aguirre",
+          "role": "Web Designer",
+          "href": "https://www.linkedin.com/in/denise-aguirre-m/",
+          "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+        }
+      }
+    ],
+    "videoCard": {
+      "button": "Go to website",
+      "id": 1,
+      "title": "MindTech App",
+      "href": "https://mindtech.store/",
+      "video": "https://www.youtube.com/embed/xN-VD-i80DA?si=1DyjDOOZmFKIEnLQ",
+      "description": "This project involves developing a technology-focused web application using MongoDB for database management, Web Services API for data communication, and React Native for cross-platform app development. Node.js powers the backend, ensuring efficient server-side operations. Project management is handled with Trello, design with Figma, and payment integration through MercadoPago. The result is a scalable, responsive, and feature-rich app offering seamless user experiences and secure e-commerce functionality.",
+      "date": "Jun 16, 2023",
+      "datetime": "2023-06-16",
+      "category": { "title": "Web Development", "href": "#" }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Your opinion is important to me. Whether you have a project proposal, a question, or just want to make a connection, here are ways to contact me.",
+    "bookMeeting": "Book a Meet meeting",
+    "calendlyUrl": "https://calendly.com/deniseaguirre-m/15-minute-meet-call",
+    "email": "Email me",
+    "emailUrl": "mailto:deniseaguirre.m@gmail.com",
+    "call": "Call me"
+  },
+  "footer": {
+    "rightsReserved": "Denise Aguirre 2024, ® All rights reserved",
+    "madeWithLove": "Made with ❤️ in Argentina",
+    "whatsappUrl": "https://wa.me/5491126580740",
+    "emailUrl": "mailto:deniseaguirre.m@gmail.com",
+    "linkedinUrl": "https://www.linkedin.com/in/denise-aguirre-m/",
+    "githubUrl": "https://github.com/DeniseAguirre"
+  },
+  "buttons": {
+    "swipeUp": "Swipe up"
+  }
+}

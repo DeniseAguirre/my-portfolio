@@ -1,10 +1,11 @@
 import InsigniaMindhub from "../assets/bootcamp-desarrollador-web-full-stack-mern-mobile-apps.png";
-
+import { useTranslation } from "react-i18next";
 export default function AboutMe() {
+  const { t } = useTranslation();
   return (
     <div id="about" className="py-8 sm:py-16">
       <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">
-        About me
+        {t("aboutMe.title")}
       </h1>
       <div className="flex flex-col items-center p-8">
         <div className="mb-8 relative">
@@ -22,36 +23,10 @@ export default function AboutMe() {
           </a>
         </div>
         <div className="md:w-1/2 text-start text-md leading-8 text-gray-600">
-          <p className="mb-4">
-            Software developer with experience in web and mobile application
-            development.{" "}
-            <p>
-              I completed a University Technician in Electronic Commerce at the
-              National University of José Clemente Paz (UNPAZ) and a MERN Full
-              Stack Web Development Bootcamp at MindHub LA.
-            </p>
-          </p>
-          <p className="mb-4">
-            I have worked in various technical roles, including as Technical
-            Assistant at UNPAZ and Software Developer at Bigger. During my time
-            at MindHub, I worked on projects including an e-commerce mobile app
-            and a web app for uploading and reading manga.{" "}
-          </p>{" "}
-          <p className="mb-4">
-            {" "}
-            I possess a variety of technical skills including Stack MERN,
-            Node.js, Bootstrap, Agile, Css3, React.js, JavaScript and React
-            Native. I also have experience in marketing, having worked as a
-            Marketing Assistant at Gardenlife SA.
-          </p>{" "}
-          <p className="mb-4">
-            {" "}
-            I am certified in Cybersecurity by Delta Protect and have several
-            other certifications in software development and digital marketing.
-            I am always looking for opportunities to learn and grow in my field.
-            Don&apos;t hesitate to get in touch if you think we could work
-            together!
-          </p>
+          <p className="mb-4">{t("aboutMe.education")}</p>
+          <p className="mb-4">{t("aboutMe.experience")}</p>{" "}
+          <p className="mb-4"> {t("aboutMe.skills")}</p>{" "}
+          <p className="mb-4">{t("aboutMe.certifications")}</p>
         </div>
       </div>
     </div>
