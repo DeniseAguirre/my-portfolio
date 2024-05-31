@@ -1,7 +1,9 @@
-import projects from "../data/projects.json";
 import VideoCard from "./VideoCard";
+import { useTranslation } from "react-i18next";
 
 export default function Projects() {
+  const { t } = useTranslation();
+  const projects = t("projects.cards", { returnObjects: true });
   const sortedProjects = projects.sort((a, b) => {
     return new Date(b.datetime) - new Date(a.datetime);
   });
@@ -10,7 +12,7 @@ export default function Projects() {
     <div id="projects" className="py-8 sm:py-16">
       <div className="mx-auto max-w-2xl">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center mb-8">
-          Projects
+          {t("projects.title")}
         </h2>
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
