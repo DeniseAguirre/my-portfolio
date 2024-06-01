@@ -4,16 +4,22 @@ export default function Contact() {
   const contact = t("contact", { returnObjects: true });
 
   return (
-    <div id="contact" className="bg-gray-800 py-8 sm:py-16 flex lg:px-24">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h1 className="text-4xl font-bold tracking-tight text-white lg:text-5xl m-4 text-center">
+    <div
+      id="contact"
+      className="bg-gray-800 flex  dark:bg-[url('https://i.postimg.cc/7P2h6gNg/pexels-therato-3374208.jpg')] dark:bg-cover dark:bg-start dark:bg-no-repeat"
+    >
+      <div className="px-6 dark:bg-black dark:rounded-md dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-md dark:bg-opacity-10 lg:px-24 py-8 sm:py-16">
+        <h1 className="text-4xl font-bold tracking-tight text-white lg:text-5xl m-4 text-center ">
           {contact.title}
         </h1>
         <div className="flex flex-col m-4">
           <p className="text-lg leading-8 text-white mb-4">{contact.intro}</p>
           <div className="flex flex-col text-lg leading-8 text-white">
             <div className="items-center mb-2">
-              <a href={contact.calendlyUrl} className="flex font-bold">
+              <a
+                href={contact.calendlyUrl}
+                className="flex font-bold dark:hover:text-green-500"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -30,7 +36,10 @@ export default function Contact() {
               </a>
             </div>
             <div className="flex items-center mb-2">
-              <a className="font-bold flex" href={contact.emailUrl}>
+              <a
+                className="font-bold flex dark:hover:text-green-500"
+                href={contact.emailUrl}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -47,7 +56,10 @@ export default function Contact() {
               </a>
             </div>
             <div className="flex items-center mb-2">
-              <a className="font-bold flex" href="tel:+5491126580740">
+              <a
+                className="font-bold flex dark:hover:text-green-500"
+                href="tel:+5491126580740"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"

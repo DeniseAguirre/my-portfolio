@@ -63,12 +63,12 @@
       },
       {
         "id": 4,
-        "title": "Web design and digital communication",
+        "title": "Initial Programming with Python",
         "button": "Show credential",
-        "href": "https://drive.google.com/file/d/1TNIWGfCCVYJgfovxjt_A2AwCLcRkJ5h-/view",
-        "image": "https://i.postimg.cc/6Q1RWpCv/unpaz-logo.jpg",
-        "description": "Universidad Nacional de José C. Paz",
-        "skills": ["Figma", "Adobe Illustrator", "Adobe Photoshop", "wix"]
+        "href": "https://drive.google.com/file/d/18l7KQjtiz0aOsRJIenZVf42bPNQg7Wsc/view",
+        "image": "https://i.postimg.cc/8PpvqzXN/124fe5d6bc38ce675e9be8d2c05fbc11.jpg",
+        "description": "Gobierno de la Ciudad de Buenos Aires",
+        "skills": ["Soft skills", "Programming Fundamentals", "Python"]
       },
       {
         "id": 5,
@@ -80,7 +80,7 @@
         "skills": ["Javascript", "Ruby", "Programming Fundamentals"]
       },
       {
-        "id": 5,
+        "id": 6,
         "title": "Resposive Web Design",
         "button": "Show credential",
         "href": "https://www.freecodecamp.org/certification/fcc41d2aa32-aa4f-4ab1-8598-993b38d0c88a/responsive-web-design",
@@ -89,7 +89,7 @@
         "skills": ["Web Design", "HTML", "CSS", "Bootstrap"]
       },
       {
-        "id": 6,
+        "id": 7,
         "title": "Introduction to software testing QA",
         "button": "Show credential",
         "href": "https://api.educacionit.com/pdf/certificados/Denise-Claribel-Aguirre-Martinez-825027/60762",
@@ -98,7 +98,7 @@
         "skills": ["Postman", "Report", "Testing"]
       },
       {
-        "id": 7,
+        "id": 8,
         "title": "First steps of frontend development",
         "button": "Show credential",
         "href": "https://drive.google.com/file/d/1TFsKkluhsz1rw9lCLM12RRDPhXvUfOph/view?usp=sharing",
@@ -107,16 +107,16 @@
         "skills": ["CSS3", "HTML5", "Javascript", "Bootstrap"]
       },
       {
-        "id": 8,
-        "title": "Initial Programming with Python",
+        "id": 9,
+        "title": "Web design and digital communication",
         "button": "Show credential",
-        "href": "https://drive.google.com/file/d/18l7KQjtiz0aOsRJIenZVf42bPNQg7Wsc/view",
-        "image": "https://i.postimg.cc/8PpvqzXN/124fe5d6bc38ce675e9be8d2c05fbc11.jpg",
-        "description": "Gobierno de la Ciudad de Buenos Aires",
-        "skills": ["Soft skills", "Programming Fundamentals", "Python"]
+        "href": "https://drive.google.com/file/d/1TNIWGfCCVYJgfovxjt_A2AwCLcRkJ5h-/view",
+        "image": "https://i.postimg.cc/6Q1RWpCv/unpaz-logo.jpg",
+        "description": "Universidad Nacional de José C. Paz",
+        "skills": ["Figma", "Adobe Illustrator", "Adobe Photoshop", "wix"]
       },
       {
-        "id": 9,
+        "id": 10,
         "title": "Cybersecurity Training",
         "button": "Show credential",
         "href": "https://apolo-cert.deltaprotect.com/certificate/ed55e48c-7a18-5c1a-bf02-3186d42baeea",
@@ -128,7 +128,7 @@
         ]
       },
       {
-        "id": 10,
+        "id": 11,
         "title": "Bootcamp Full Stack Web Developer MERN & Mobile Apps",
         "button": "Show credential",
         "href": "https://www.credly.com/badges/63a93c65-32bb-497f-84ef-72e2365cc131/linked_in_profile",
@@ -144,8 +144,8 @@
           "NodeJS",
           "ReactJS",
           "SQL",
-          "React Native Mobile Apps Development",
-          "Selenium"
+          "Selenium",
+          "React Native Mobile Apps Development"
         ]
       }
     ]
@@ -156,7 +156,7 @@
       {
         "id": 1,
         "title": "Olea - The Olive Oil Company",
-        "href": "https://express.adobe.com/page/9d1CpRZ0QmUAX",
+        "href": "https://olea-aceite-de-oliva-adrian-gette.netlify.app/",
         "image": "https://i.postimg.cc/nhxc7Pyz/olea.png",
         "description": "Presentation of the prototype and concept of Olea Organic Olive Oil.",
         "date": "Jul 01, 2020",

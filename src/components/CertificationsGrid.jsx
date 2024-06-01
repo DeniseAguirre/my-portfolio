@@ -7,8 +7,11 @@ export default function CertificationsGrid() {
   const { t } = useTranslation();
   const cardItems = t("certifications.cards", { returnObjects: true });
   return (
-    <div id="certifications" className=" px-8 md:px-24 py-8 sm:py-16">
-      <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center m-4">
+    <div
+      id="certifications"
+      className=" px-8 md:px-24 py-8 sm:py-16 dark:bg-[#131313]"
+    >
+      <h1 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl text-center m-4 lg:pb-8">
         {t("certifications.title")}
       </h1>
       <Box sx={{ flexGrow: 1, height: "100%" }}>

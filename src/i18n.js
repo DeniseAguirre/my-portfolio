@@ -16,13 +16,13 @@ const resources = {
 };
 
 i18n
-  .use(LanguageDetector) // Detecta el idioma del navegador
-  .use(initReactI18next) // Pasa i18n a React
+  .use(LanguageDetector)
+  .use(initReactI18next)
   .init({
     resources,
     fallbackLng: "es",
     interpolation: {
-      escapeValue: false, // React ya se encarga de la protección XSS
+      escapeValue: false,
     },
   });
 

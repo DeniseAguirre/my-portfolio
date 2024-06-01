@@ -63,51 +63,6 @@
       },
       {
         "id": 4,
-        "title": "Diseño web y comunicación digital",
-        "button": "Ver certificado",
-        "href": "https://drive.google.com/file/d/1TNIWGfCCVYJgfovxjt_A2AwCLcRkJ5h-/view",
-        "image": "https://i.postimg.cc/6Q1RWpCv/unpaz-logo.jpg",
-        "description": "Universidad Nacional de José C. Paz",
-        "skills": ["Figma", "Adobe Illustrator", "Adobe Photoshop", "wix"]
-      },
-      {
-        "id": 5,
-        "title": "Curso Sé Programar",
-        "button": "Ver certificado",
-        "href": "https://mumuki.io/argentina-programa/certificates/verify/B3nWUlJFo6AOlTrn",
-        "image": "https://i.postimg.cc/4nC1QbPZ/mumuki-logo.png",
-        "description": "Argentina Programa",
-        "skills": ["Javascript", "Ruby", "Fundamentos de programación"]
-      },
-      {
-        "id": 5,
-        "title": "Diseño web respositivo",
-        "button": "Ver certificado",
-        "href": "https://www.freecodecamp.org/certification/fcc41d2aa32-aa4f-4ab1-8598-993b38d0c88a/responsive-web-design",
-        "image": "https://i.postimg.cc/wBvyGR7m/freecodecamp-logo.png",
-        "description": "freeCodeCamp",
-        "skills": ["Diseño web", "HTML", "CSS", "Bootstrap"]
-      },
-      {
-        "id": 6,
-        "title": "Introducción al control de calidad de las pruebas de software",
-        "button": "Ver certificado",
-        "href": "https://api.educacionit.com/pdf/certificados/Denise-Claribel-Aguirre-Martinez-825027/60762",
-        "image": "https://i.postimg.cc/dVTHb3pL/edIT.jpg",
-        "description": "Educación IT",
-        "skills": ["Postman", "Reportes", "Pruebas"]
-      },
-      {
-        "id": 7,
-        "title": "Primeros pasos del desarrollo frontend",
-        "button": "Ver certificado",
-        "href": "https://drive.google.com/file/d/1TFsKkluhsz1rw9lCLM12RRDPhXvUfOph/view?usp=sharing",
-        "image": "https://i.postimg.cc/bJDwbKvG/APLOGO.png",
-        "description": "Argentina Programa 4.0",
-        "skills": ["CSS3", "HTML5", "Javascript", "Bootstrap"]
-      },
-      {
-        "id": 8,
         "title": "Programacion inicial con Python",
         "button": "Ver certificado",
         "href": "https://drive.google.com/file/d/18l7KQjtiz0aOsRJIenZVf42bPNQg7Wsc/view",
@@ -120,7 +75,52 @@
         ]
       },
       {
+        "id": 5,
+        "title": "Curso Sé Programar",
+        "button": "Ver certificado",
+        "href": "https://mumuki.io/argentina-programa/certificates/verify/B3nWUlJFo6AOlTrn",
+        "image": "https://i.postimg.cc/4nC1QbPZ/mumuki-logo.png",
+        "description": "Argentina Programa",
+        "skills": ["Javascript", "Ruby", "Fundamentos de programación"]
+      },
+      {
+        "id": 6,
+        "title": "Diseño web respositivo",
+        "button": "Ver certificado",
+        "href": "https://www.freecodecamp.org/certification/fcc41d2aa32-aa4f-4ab1-8598-993b38d0c88a/responsive-web-design",
+        "image": "https://i.postimg.cc/wBvyGR7m/freecodecamp-logo.png",
+        "description": "freeCodeCamp",
+        "skills": ["Diseño web", "HTML", "CSS", "Bootstrap"]
+      },
+      {
+        "id": 7,
+        "title": "Introducción al control de calidad de las pruebas de software",
+        "button": "Ver certificado",
+        "href": "https://api.educacionit.com/pdf/certificados/Denise-Claribel-Aguirre-Martinez-825027/60762",
+        "image": "https://i.postimg.cc/dVTHb3pL/edIT.jpg",
+        "description": "Educación IT",
+        "skills": ["Postman", "Reportes", "Pruebas"]
+      },
+      {
+        "id": 8,
+        "title": "Primeros pasos del desarrollo frontend",
+        "button": "Ver certificado",
+        "href": "https://drive.google.com/file/d/1TFsKkluhsz1rw9lCLM12RRDPhXvUfOph/view?usp=sharing",
+        "image": "https://i.postimg.cc/bJDwbKvG/APLOGO.png",
+        "description": "Argentina Programa 4.0",
+        "skills": ["CSS3", "HTML5", "Javascript", "Bootstrap"]
+      },
+      {
         "id": 9,
+        "title": "Diseño web y comunicación digital",
+        "button": "Ver certificado",
+        "href": "https://drive.google.com/file/d/1TNIWGfCCVYJgfovxjt_A2AwCLcRkJ5h-/view",
+        "image": "https://i.postimg.cc/6Q1RWpCv/unpaz-logo.jpg",
+        "description": "Universidad Nacional de José C. Paz",
+        "skills": ["Figma", "Adobe Illustrator", "Adobe Photoshop", "wix"]
+      },
+      {
+        "id": 10,
         "title": "Entrenamiento en Ciberseguridad",
         "button": "Ver certificado",
         "href": "https://apolo-cert.deltaprotect.com/certificate/ed55e48c-7a18-5c1a-bf02-3186d42baeea",
@@ -132,7 +132,7 @@
         ]
       },
       {
-        "id": 10,
+        "id": 11,
         "title": "Bootcamp Full Stack Web Developer MERN & Mobile Apps",
         "button": "Ver certificado",
         "href": "https://www.credly.com/badges/63a93c65-32bb-497f-84ef-72e2365cc131/linked_in_profile",
@@ -148,8 +148,8 @@
           "NodeJS",
           "ReactJS",
           "SQL",
-          "React Native Mobile Apps Development",
-          "Selenium"
+          "Selenium",
+          "React Native Mobile Apps Development"
         ]
       }
     ]
@@ -160,7 +160,7 @@
       {
         "id": 1,
         "title": "Olea - Aceite de Oliva",
-        "href": "https://express.adobe.com/page/9d1CpRZ0QmUAX/",
+        "href": "https://olea-aceite-de-oliva-adrian-gette.netlify.app/",
         "image": "https://i.postimg.cc/nhxc7Pyz/olea.png",
         "description": "Presentación del prototipo y concepto de Olea Aceite de Oliva Orgánico.",
         "date": "01 de julio de 2020",
