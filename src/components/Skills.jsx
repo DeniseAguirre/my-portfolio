@@ -31,10 +31,10 @@ export default function Skills() {
   return (
     <div
       id="skills"
-      className="py-8 mx-4 sm:py-16 lg:px-36 lg:mx-0 bg-[url('https://i.postimg.cc/029nW5nN/pexels-stywo-1054218.jpg')] bg-cover bg-center bg-no-repeat"
+      className="py-8 sm:py-16 lg:px-36 bg-[url('https://i.postimg.cc/029nW5nN/pexels-stywo-1054218.jpg')] bg-cover bg-center bg-no-repeat dark:bg-[url('https://i.postimg.cc/7P2h6gNg/pexels-therato-3374208.jpg')] dark:bg-cover dark:bg-center dark:bg-no-repeat"
     >
       <div className="mx-auto max-w-2xl">
-        <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl text-center mb-8">
+        <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl text-center m-8">
           {t("skills.title")}
         </h2>
       </div>

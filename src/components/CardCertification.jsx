@@ -16,21 +16,26 @@ const Img = styled("img")({
   borderRadius: "50%",
 });
 
+const SmallFontChip = styled(Chip)({
+  fontSize: "0.75rem",
+  padding: "4px",
+});
+
 export default function CardCertification(data) {
   return (
     <Paper
       sx={{
-        p: 2,
+        p: 3,
         margin: "auto",
         maxWidth: 500,
         flexGrow: 1,
-        backgroundColor: (theme) =>
-          theme.palette.mode === "dark" ? "#1A2027" : "#fff",
+        borderRadius: "12px",
       }}
+      className="dark:bg-[#1F1E24] dark:shadow-md dark:shadow-black"
     >
       <Grid container>
         <Grid item>
-          <ButtonBase sx={{ width: 128, height: 128 }}>
+          <ButtonBase sx={{ width: 55, height: 55, marginRight: 4 }}>
             <Img alt="complex" src={data?.data.image} />
           </ButtonBase>
         </Grid>
@@ -42,10 +47,16 @@ export default function CardCertification(data) {
                 variant="h6"
                 component="div"
                 sx={{ fontWeight: "light", color: "gray" }}
+                className="dark:text-white"
               >
                 {data?.data.title}
               </Typography>
-              <Typography variant="body2" gutterBottom color="text.secondary">
+              <Typography
+                variant="body2"
+                gutterBottom
+                color="text.secondary"
+                className="dark:text-white"
+              >
                 {data?.data.description}
               </Typography>
             </Grid>
@@ -53,7 +64,7 @@ export default function CardCertification(data) {
               <Link
                 to={data?.data.href}
                 sx={{ cursor: "pointer" }}
-                className="text-indigo-600 font-bold flex mb-4"
+                className="text-indigo-600 font-bold flex mb-4 dark:text-green-500"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -71,23 +82,28 @@ export default function CardCertification(data) {
                 </svg>
               </Link>
             </Grid>
+            <Grid item>
+              <Stack
+                direction="row"
+                spacing={1}
+                alignItems="center"
+                justifyContent="left"
+                flexWrap={"wrap"}
+                useFlexGap={true}
+              >
+                {data?.data.skills.map((skill) => (
+                  <SmallFontChip
+                    size="small"
+                    label={skill}
+                    key={skill}
+                    className="dark:text-gray-200 dark:bg-gray-700 dark:shadow-sm dark:shadow-black"
+                  />
+                ))}
+              </Stack>
+            </Grid>
           </Grid>
         </Grid>
       </Grid>
-      <div className="md:m-4">
-        <Stack
-          direction="row"
-          spacing={1}
-          alignItems="center"
-          justifyContent="left"
-          flexWrap={"wrap"}
-          useFlexGap={true}
-        >
-          {data?.data.skills.map((skill) => (
-            <Chip size="small" label={skill} key={skill} />
-          ))}
-        </Stack>
-      </div>
     </Paper>
   );
 }

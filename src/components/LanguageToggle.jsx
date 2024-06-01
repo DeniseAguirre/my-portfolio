@@ -42,7 +42,7 @@ const LanguageToggle = ({ changeLanguage }) => {
         </div>
       </div>
       <div>
-        <span className={"ml-4 text-lg font-bold text-black"}>
+        <span className={"ml-4 text-lg font-bold text-black dark:text-white"}>
           {isEnglish ? "EN" : "ES"}
         </span>
       </div>

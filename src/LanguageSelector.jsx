@@ -8,7 +8,6 @@ const LanguageSelector = () => {
     i18n.changeLanguage(lng);
   };
 
-  console.log(i18n.language);
   return (
     <div className="w-80px lg:px-8">
       <LanguageToggle changeLanguage={changeLanguage} />
