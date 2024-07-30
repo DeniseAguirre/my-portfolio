@@ -14,10 +14,7 @@
   ],
   "aboutMe": {
     "title": "Sobre mí",
-    "education": "Completé un Técnico Universitario en Comercio Electrónico en la Universidad Nacional de José Clemente Paz (UNPAZ) y un Bootcamp de Desarrollo Web Full Stack MERN en MindHub LA.",
-    "experience": "He trabajado en varios roles técnicos, incluido como Asistente Técnico en el Campus Virtual de la Universidad Nacional de José Clemente Paz (UNPAZ) y Desarrollador de Software en Bigger. Durante mi tiempo en MindHub, trabajé en proyectos que incluyen una aplicación móvil de comercio electrónico y una aplicación web para subir y leer manga.",
-    "skills": "Poseo una variedad de habilidades técnicas que incluyen Stack MERN, Node.js, Bootstrap, Agile, CSS3, React.js, JavaScript y React Native. También tengo experiencia en marketing, habiendo trabajado como Asistente de Marketing en Gardenlife SA.",
-    "certifications": "Estoy certificada en Ciberseguridad por Delta Protect y tengo varias otras certificaciones en desarrollo de software y marketing digital. Siempre estoy buscando oportunidades para aprender y crecer en mi campo."
+    "description": "Desarrolladora Full Stack con un fuerte enfoque en Frontend con más de dos años de experiencia en diseño web enfocada en la usabilidad y accesibilidad de las interfaces, complementando este último año con habilidades de Node.js, Nest.js, Express.js, MongoDB y PostgreSQL e Integración de APIs. Me especializo en crear interfaces atractivas y funcionales centradas en la experiencia de usuario, con mucha atención al detalle."
   },
   "skills": {
     "title": "Habilidades",
@@ -151,6 +148,15 @@
           "Selenium",
           "React Native Mobile Apps Development"
         ]
+      },
+      {
+        "id": 12,
+        "title": "CSS a la velocidad de TailwindCSS",
+        "button": "Ver certificado",
+        "href": "https://certificados.donweb.com/212/212_deniseaguirre.m@gmail.com?utm_source=talleres-certificado&utm_medium=email&utm_campaign=talleres-certificado&utm_content=CSS%20a%20la%20velocidad%20de%20TailwindCSS",
+        "image": "https://i.postimg.cc/sg9HSCMh/DONWEB.png",
+        "description": "Dictado por talleres DonWeb y EducacionIT",
+        "skills": ["CSS", "TailwindCSS"]
       }
     ]
   },
@@ -249,6 +255,22 @@
         "author": {
           "name": "Denise Aguirre",
           "role": "Diseñadora Web",
+          "href": "https://www.linkedin.com/in/denise-aguirre-m/",
+          "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+        }
+      },
+      {
+        "id": 7,
+        "title": "Top 10 Criptomonedas",
+        "href": "https://top-crypto-gilt.vercel.app/",
+        "image": "https://i.postimg.cc/tCgvQxfs/Captura-de-pantalla-2024-07-30-a-las-18-27-26.png",
+        "description": "Aplicación web para la visualización en tiempo real del top 10 de criptomonedas.",
+        "date": "30 de julio de 2024",
+        "datetime": "2024-07-30",
+        "category": { "title": "App Web", "href": "#" },
+        "author": {
+          "name": "Denise Aguirre",
+          "role": "Frontend Developer",
           "href": "https://www.linkedin.com/in/denise-aguirre-m/",
           "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
         }

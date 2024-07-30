@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import PdfFileEs from "../assets/CV-ES-DeniseAguirre.pdf";
-import PdfFileEn from "../assets/CV-EN-DeniseAguirre.pdf";
+import PdfFileEs from "../assets/DeniseAguirreMartinez-CV-ES.pdf";
+import PdfFileEn from "../assets/DeniseAguirreMartinez-CV-EN.pdf";
 import { MapPinIcon } from "@heroicons/react/24/solid";
 import { FileDownload } from "@mui/icons-material";
 import LanguageSelector from "../LanguageSelector";
