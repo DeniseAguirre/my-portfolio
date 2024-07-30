@@ -14,10 +14,7 @@
   ],
   "aboutMe": {
     "title": "About Me",
-    "education": "I completed a University Technician in Electronic Commerce at the National University of José Clemente Paz (UNPAZ) and a MERN Full Stack Web Development Bootcamp at MindHub LA.",
-    "experience": "I have worked in various technical roles, including as Technical Assistant at the Virtual Campus of the National University of José Clemente Paz (UNPAZ) and Software Developer at Bigger. During my time at MindHub, I worked on projects including an e-commerce mobile app and a web app for uploading and reading manga.",
-    "skills": "I possess a variety of technical skills including Stack MERN, Node.js, Bootstrap, Agile, CSS3, React.js, JavaScript, and React Native. I also have experience in marketing, having worked as a Marketing Assistant at Gardenlife SA.",
-    "certifications": "I am certified in Cybersecurity by Delta Protect and have several other certifications in software development and digital marketing. I am always looking for opportunities to learn and grow in my field."
+    "description": "Developer Full Stack with a strong focus on Frontend with more than two years of experience in web design focused on usability and accessibility of the interfaces, complementing this last year with skills of Node.js, Nest.js, Express.js, MongoDB and PostgreSQL It is API Integration. I specialize in creating attractive and functional interfaces focused on user experience, with great attention to detail."
   },
   "skills": {
     "title": "Skills",
@@ -147,6 +144,15 @@
           "Selenium",
           "React Native Mobile Apps Development"
         ]
+      },
+      {
+        "id": 12,
+        "title": "CSS at the speed of TailwindCSS",
+        "button": "Show credential",
+        "href": "https://certificados.donweb.com/212/212_deniseaguirre.m@gmail.com?utm_source=talleres-certificado&utm_medium=email&utm_campaign=talleres-certificado&utm_content=CSS%20a%20la%20velocidad%20de%20TailwindCSS",
+        "image": "https://i.postimg.cc/sg9HSCMh/DONWEB.png",
+        "description": "Taught by DonWeb and EducacionIT workshops",
+        "skills": ["CSS", "TailwindCSS"]
       }
     ]
   },
@@ -245,6 +251,22 @@
         "author": {
           "name": "Denise Aguirre",
           "role": "Web Designer",
+          "href": "https://www.linkedin.com/in/denise-aguirre-m/",
+          "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+        }
+      },
+      {
+        "id": 7,
+        "title": "Top 10 Cryptocurrencies",
+        "href": "https://top-crypto-gilt.vercel.app/",
+        "image": "https://i.postimg.cc/tCgvQxfs/Captura-de-pantalla-2024-07-30-a-las-18-27-26.png",
+        "description": "Web application for real-time visualization of the top 10 cryptocurrencies.",
+        "date": "Jul 30, 2024",
+        "datetime": "2024-07-30",
+        "category": { "title": "App Web", "href": "#" },
+        "author": {
+          "name": "Denise Aguirre",
+          "role": "Frontend Developer",
           "href": "https://www.linkedin.com/in/denise-aguirre-m/",
           "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
         }

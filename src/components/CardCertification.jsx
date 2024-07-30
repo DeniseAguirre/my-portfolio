@@ -43,11 +43,10 @@ export default function CardCertification(data) {
           <Grid item xs container direction="column" spacing={2}>
             <Grid item xs>
               <Typography
-                gutterBottom
                 variant="h6"
                 component="div"
                 sx={{ fontWeight: "light", color: "gray" }}
-                className="dark:text-white"
+                className="dark:text-white text-sm"
               >
                 {data?.data.title}
               </Typography>
@@ -55,7 +54,7 @@ export default function CardCertification(data) {
                 variant="body2"
                 gutterBottom
                 color="text.secondary"
-                className="dark:text-white"
+                className="dark:text-gray-400 text-xs"
               >
                 {data?.data.description}
               </Typography>
