@@ -10,7 +10,7 @@ export default function AboutMe() {
       <div className="flex flex-col items-center p-8">
         <div className="mb-8 relative">
           <img
-            src="https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+            src="https://i.postimg.cc/bJQXgpcG/denise.jpg"
             alt="profile"
             className="w-32 h-32 rounded-full border-2 border-purple-600 dark:border-green-500"
           />
