@@ -274,6 +274,22 @@
           "href": "https://www.linkedin.com/in/denise-aguirre-m/",
           "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
         }
+      },
+      {
+        "id": 8,
+        "title": "Tarjeta de blog minimalista",
+        "href": "https://deniseaguirre.github.io/responsive-web-starter-main/",
+        "image": "https://i.postimg.cc/5NfLcpS7/Captura-de-pantalla-2024-10-02-a-las-18-06-47.png",
+        "description": "Tarjeta de blog simple que incluye una imagen, un título, una breve descripción y una etiqueta.",
+        "date": "Oct 02, 2024",
+        "datetime": "2024-10-02",
+        "category": { "title": "Diseño web respositivo", "href": "#" },
+        "author": {
+          "name": "Denise Aguirre",
+          "role": "Diseño web",
+          "href": "https://www.linkedin.com/in/denise-aguirre-m/",
+          "imageUrl": "https://i.postimg.cc/3wvqjxwv/IMG-4432.jpg"
+        }
       }
     ],
     "videoCard": {
