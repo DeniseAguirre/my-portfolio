@@ -1,15 +1,30 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import PdfFileEs from "../assets/DeniseAguirreMartinez-CV-ES.pdf";
-import PdfFileEn from "../assets/DeniseAguirreMartinez-CV-EN.pdf";
+import PdfFileEs from "../assets/ES-DeniseAguirreMartinez-CV.pdf";
+import PdfFileEn from "../assets/EN-DeniseAguirreMartinez-CV.pdf";
+import WordFileEn from "../assets/EN-DeniseAguirreMartinez-CV.docx";
+import WordFileEs from "../assets/ES-DeniseAguirreMartinez-CV.docx";
 import { MapPinIcon } from "@heroicons/react/24/solid";
-import { FileDownload } from "@mui/icons-material";
+import { ArrowDropDownSharp } from "@mui/icons-material";
 import LanguageSelector from "../LanguageSelector";
 import { useTranslation } from "react-i18next";
 import DarkModeToggle from "./DarkModeToggle";
-
+import {
+  Button,
+  ButtonGroup,
+  ClickAwayListener,
+  Grow,
+  MenuItem,
+  MenuList,
+  Paper,
+  Popper,
+} from "@mui/material";
 export default function NavBar() {
+  const options = ["docx", "pdf"];
+  const [selectedIndex, setSelectedIndex] = useState(1);
+  const [open, setOpen] = useState(false);
+  const anchorRef = useRef(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { t, i18n } = useTranslation();
   const navBarItems = t("navBar", { returnObjects: true });
@@ -18,9 +33,27 @@ export default function NavBar() {
     const link = document.createElement("a");
     const currentLanguage = i18n.language;
     const pdfFile = currentLanguage === "en" ? PdfFileEn : PdfFileEs;
-    link.href = pdfFile;
-    link.download = `DeniseAguirreMartinez_${currentLanguage}.pdf`;
+    const wordFile = currentLanguage === "en" ? WordFileEn : WordFileEs;
+    link.href = options[selectedIndex] === "docx" ? wordFile : pdfFile;
+    link.download = `DeniseAguirreMartinez_${currentLanguage}.${options[selectedIndex]}`;
     link.click();
+  };
+
+  const handleMenuItemClick = (event, index) => {
+    setSelectedIndex(index);
+    setOpen(false);
+  };
+
+  const handleToggle = () => {
+    setOpen((prevOpen) => !prevOpen);
+  };
+
+  const handleClose = (event) => {
+    if (anchorRef.current && anchorRef.current.contains(event.target)) {
+      return;
+    }
+
+    setOpen(false);
   };
 
   return (
@@ -148,14 +181,68 @@ export default function NavBar() {
               Buenos Aires, Argentina.
             </div>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <button
-                type="button"
-                onClick={handleDownload}
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:bg-green-600 dark:hover:bg-green-500"
-              >
-                <FileDownload />
-                {t("home.download")}
-              </button>
+              <div>
+                <ButtonGroup
+                  variant="outlined"
+                  ref={anchorRef}
+                  aria-label="Download cv file"
+                >
+                  <Button onClick={handleDownload}>
+                    {t("home.download") + " "}
+                    {options[selectedIndex]}
+                  </Button>
+                  <Button
+                    size="small"
+                    aria-controls={open ? "split-button-menu" : undefined}
+                    aria-expanded={open ? "true" : undefined}
+                    aria-label="select merge strategy"
+                    aria-haspopup="menu"
+                    onClick={handleToggle}
+                  >
+                    <ArrowDropDownSharp />
+                  </Button>
+                </ButtonGroup>
+                <Popper
+                  sx={{ zIndex: 1 }}
+                  open={open}
+                  anchorEl={anchorRef.current}
+                  role={undefined}
+                  transition
+                  disablePortal
+                >
+                  {({ TransitionProps, placement }) => (
+                    <Grow
+                      {...TransitionProps}
+                      style={{
+                        transformOrigin:
+                          placement === "bottom"
+                            ? "center top"
+                            : "center bottom",
+                      }}
+                    >
+                      <Paper>
+                        <ClickAwayListener onClickAway={handleClose}>
+                          <MenuList id="split-button-menu" autoFocusItem>
+                            {options.map((option, index) => (
+                              <MenuItem
+                                key={option}
+                                disabled={index === 2}
+                                selected={index === selectedIndex}
+                                onClick={(event) =>
+                                  handleMenuItemClick(event, index)
+                                }
+                              >
+                                {t("home.download") + " "}
+                                {option}
+                              </MenuItem>
+                            ))}
+                          </MenuList>
+                        </ClickAwayListener>
+                      </Paper>
+                    </Grow>
+                  )}
+                </Popper>
+              </div>
               <a
                 href="#about"
                 rel="noreferrer"
